@@ -1,5 +1,7 @@
 public class TokoBuku {
     public static void main(String[] args) {
+        // "There is no default constructor available in 'Buku'"
+        // (javac: constructor Buku in class Buku cannot be applied to given types;)
 
         Buku[] keranjang = {
                 new BukuCetak("Pemrograman Java", "John Doe", 120000, 750),
